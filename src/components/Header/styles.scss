@@ -1,0 +1,14 @@
+header {
+    width: 100%;
+    height: 4rem;
+    padding: .5rem;
+    background: url("../../assets/Top\ -\ Pokédex.png") no-repeat center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        max-height: 100%;
+    }
+}
