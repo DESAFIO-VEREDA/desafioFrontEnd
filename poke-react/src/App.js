@@ -1,8 +1,9 @@
+import { Home } from "./views/Home";
 
 function App() {
   return (
     <div>
-      <h2>Pokemon API</h2>
+      <Home />
     </div>
   );
 }
