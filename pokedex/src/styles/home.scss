@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f8f8f8;
+}
+
+.Cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem auto;
+    
+    border: 1px solid #000;
+    
+    width: 80%;
+    height: 80vh;
+
+    .Card {
+        display: flex;
+        margin: auto 2rem;
+        border: 1px solid rgba(0, 0, 0, 0.103);
+        border-radius: 10px;
+        background: rgb(102, 238, 125);
+    }
+
+    h1 {
+        color: #fff;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+
+    .Properties {
+        display: flex;
+
+        width: 5rem;
+        margin-left: 8px;
+        margin-bottom: 6px;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 17px;
+        opacity: 90%;
+
+        border-radius: 10px;
+        box-shadow: 5px 0px 15px 1px rgba(0,0,0,0.20);
+
+        color: #fff;
+        background: rgb(136, 201, 147);
+
+    }
+
+    img{
+        height: 11.5rem;
+    }
+
+    .imgBackground{
+        background: url("../assets/imgs/fundoImg.png") no-repeat center/70%;        
+        height: 100%;
+    }
+
+    .id {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-top: 4px;
+        margin-right: 8px;
+        p{
+            opacity: 20%;
+        }
+    }
+}
